@@ -7,7 +7,7 @@ Every file on its `main` branch is written by the release pipeline of the
 
 ## Install on a site machine
 
-Linux, x86_64 (no aarch64 build yet), per user, no admin rights:
+Linux, x86_64 or aarch64, per user, no admin rights:
 
     curl -fsSL https://duckdivelab.github.io/tembry-shipdesk-releases/install.sh | sh -s -- --site-code CY-PAPHOS --site-name "Paphos"
 
@@ -28,8 +28,7 @@ version that fails to start is rolled back to the one before.
 ## What is here
 
 - `stable/latest.json`, `beta/latest.json`: the channels. Each names one
-  version and, per platform (`linux-x86_64`; `linux-aarch64` once that build
-  exists), the AppImage to download and its signature.
+  version and, per platform (`linux-x86_64`, `linux-aarch64`), the AppImage to download and its signature.
 - `install.sh`: the first install, above.
 - [Releases](https://github.com/DuckDiveLab/tembry-shipdesk-releases/releases):
   every version, with its AppImage (`ShipDesk_<version>_amd64.AppImage`),
