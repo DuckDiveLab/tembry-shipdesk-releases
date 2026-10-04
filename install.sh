@@ -14,9 +14,7 @@ while [ $# -gt 0 ]; do case "$1" in
 case "$channel" in beta|stable) ;; *) echo "the channel is beta or stable, not $channel" >&2; exit 2 ;; esac
 # site.toml holds them as TOML strings, written as they are.
 case "$code$name" in *\"*|*\\*) echo "the site code and name cannot contain \" or \\" >&2; exit 2 ;; esac
-# x86_64 only for now: no aarch64 build is made yet (the release workflow
-# says why).
-arch="$(uname -m)"; case "$arch" in x86_64) a=amd64 ;; aarch64) echo "no build for aarch64 yet" >&2; exit 1 ;; *) echo "no build for $arch" >&2; exit 1 ;; esac
+arch="$(uname -m)"; case "$arch" in x86_64) a=amd64 ;; aarch64) a=aarch64 ;; *) echo "no build for $arch" >&2; exit 1 ;; esac
 base="https://duckdivelab.github.io/tembry-shipdesk-releases"
 version="$(curl -fsSL "$base/$channel/latest.json" | sed -n 's/.*"version": *"\([^"]*\)".*/\1/p' | head -1)"
 [ -n "$version" ] || { echo "cannot read $base/$channel/latest.json" >&2; exit 1; }
