@@ -31,8 +31,10 @@ version that fails to start is rolled back to the one before.
   version and, per platform (`linux-x86_64`, `linux-aarch64`), the AppImage to download and its signature.
 - `install.sh`: the first install, above.
 - [Releases](https://github.com/DuckDiveLab/tembry-shipdesk-releases/releases):
-  every version, with its AppImage (`ShipDesk_<version>_amd64.AppImage`),
-  its `.sig` signature, the launcher (`shipdesk-launcher-amd64`), the
-  icon and the version's `latest.json`. A version is published as a
+  every version, with its AppImages (`ShipDesk_<version>_amd64.AppImage`
+  for x86_64, `ShipDesk_<version>_aarch64.AppImage` for arm64; 0.1.0 has
+  the first only), each with its `.sig` signature, the launchers
+  (`shipdesk-launcher-amd64`, `shipdesk-launcher-aarch64`), the icon and the
+  version's `latest.json`. A version is published as a
   pre-release on beta first, and becomes a full release when it is promoted
   to stable.
