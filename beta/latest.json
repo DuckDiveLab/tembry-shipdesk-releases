@@ -1,15 +1,15 @@
 {
-  "version": "0.1.3",
-  "notes": "\n### Now does\n- **desk:** starting shipdesk again shows the running desk's window (#19)\n- **queue:** the queue commits its waiting single orders as a numbered batch, and sends a batch back (#21)\n\n### Housekeeping\n- **nightly:** the nightly runs weekly, and its mutation test finds no surviving mutant (#18)\n- **decisions:** a label names a place, a card says what is inside, and a unit gets a sticker only when it must (#20)",
-  "pub_date": "2026-10-12T07:01:09Z",
+  "version": "0.1.4",
+  "notes": "\n### Now does\n- **desk:** the desk verifies and weighs a single, and puts a parcel back (#24)\n- **desk:** the desk is laid out as its board draws it (#25)",
+  "pub_date": "2026-10-13T20:21:39Z",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRRzUyYzhmaFdOVFZJU25BNGRqSDhWVEFSZTF0S1lWVTc3RWZHRDBZVDU1b0xFa3Z6ZTBycnpuTUVlNnVyd3RXRHlRWkxWKzVOeERuN290S1VnemlSV0NSZS9vek1EOGdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNzg4MzgxCWZpbGU6U2hpcERlc2tfMC4xLjNfYW1kNjQuQXBwSW1hZ2UJdmVyc2lvbjowLjEuMwpiQ3J1VkFGUWhkUmQySjV2RmhQemMxUXVEVGJtZmd6eTN3N2ltWUI2OXV3TXRuSi9MUjdVVTgyeHFXcmwvRkU1bUxOZUtkeFh0aDR3RmZmWGdnRTdDZz09Cg==",
-      "url": "https://github.com/DuckDiveLab/tembry-shipdesk-releases/releases/download/v0.1.3/ShipDesk_0.1.3_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRRzUyYzhmaFdOVFNZREcyN0JCTGZBRUlNNWwxcDQ1NHYzMGRlTndsNVpwaWdVMDZrWjd6bEtWd2dMZXRwaWN2U014WXJZbSsrNDlaU3NXczYxQ2F2QjhMSnB4eXRqQkFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTIyODM1CWZpbGU6U2hpcERlc2tfMC4xLjRfYW1kNjQuQXBwSW1hZ2UJdmVyc2lvbjowLjEuNApTMVl1ZnhvUGcrYy9lRGFkaEIrLytqZHNxZWlJRE5SdWFhTndSY3ArTEkwQ3N3aWlldVM0dEVvN3R5bkozUFgvWnM0YzA5b3o4VHBGb0hsOVh0c0pEdz09Cg==",
+      "url": "https://github.com/DuckDiveLab/tembry-shipdesk-releases/releases/download/v0.1.4/ShipDesk_0.1.4_amd64.AppImage"
     },
     "linux-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRRzUyYzhmaFdOVGFoRlhZYm0xbzM2cnFvallFQm5rQjdtWmwyWkhzMXdDRmpxUlBaeUlrK0tkT1dxSmJpNHFJQy8xMWg1eDMrdFhqbGc4VCsyUlhOS1JtclBhWEZZS3djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNzg4NDA5CWZpbGU6U2hpcERlc2tfMC4xLjNfYWFyY2g2NC5BcHBJbWFnZQl2ZXJzaW9uOjAuMS4zClNKYkZzeDl2SWRxb1BiWDZETGR5TjJzOEJVVmg5UVZjeHVnN1pYMlJTMU13d0hqek5FKzRoUnBzdERHbDZaMFF6Y3JZRlRxbGRobThaNDAxK1p6TkRnPT0K",
-      "url": "https://github.com/DuckDiveLab/tembry-shipdesk-releases/releases/download/v0.1.3/ShipDesk_0.1.3_aarch64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRRzUyYzhmaFdOVFFVbllyRXMyd05zQlIwQjZmTGE0ZE5naVpyck5jcXFqVTgrWGY3Yko5MlRUZWpFdi9zWm9ZOVFhK3dZVXo1L1F6cnJkeDY0ejIxdFA3aGtwTWc0R1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTIyODM1CWZpbGU6U2hpcERlc2tfMC4xLjRfYWFyY2g2NC5BcHBJbWFnZQl2ZXJzaW9uOjAuMS40CmRSeEp1eG5PM0FDQzQyNTVuK1JaUzNUT0Z4eTdRYkVQZmFEeW5nQW1mODRqR3BFQXZYc1duVlB4alptS3JXa3V3ZGFFMmYzdHdhYlloTnFjWmhtUkRnPT0K",
+      "url": "https://github.com/DuckDiveLab/tembry-shipdesk-releases/releases/download/v0.1.4/ShipDesk_0.1.4_aarch64.AppImage"
     }
   }
 }
