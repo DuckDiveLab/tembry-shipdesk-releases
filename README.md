@@ -34,7 +34,10 @@ version that fails to start is rolled back to the one before.
   every version, with its AppImages (`ShipDesk_<version>_amd64.AppImage`
   for x86_64, `ShipDesk_<version>_aarch64.AppImage` for arm64; 0.1.0 has
   the first only), each with its `.sig` signature, the launchers
-  (`shipdesk-launcher-amd64`, `shipdesk-launcher-aarch64`), the icon and the
-  version's `latest.json`. A version is published as a
+  (`shipdesk-launcher-amd64`, `shipdesk-launcher-aarch64`), the icon, the
+  version's `latest.json` and, from 0.1.8, each AppImage's third-party
+  notices (`THIRD-PARTY-NOTICES-amd64.txt`, `THIRD-PARTY-NOTICES-aarch64.txt`;
+  the AppImage carries the same notices in `usr/share/doc/shipdesk/`). A
+  version is published as a
   pre-release on beta first, and becomes a full release when it is promoted
   to stable.
