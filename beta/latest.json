@@ -1,15 +1,15 @@
 {
-  "version": "0.1.10",
-  "notes": "\n### Now does\n- **desk:** each order done at the desk is a row in that day's shipped file, with its tracking number, in the contract's names (#46)\n- **desktop:** the app's icon is the mustard sd with its urgent note, in the menu entry, the window, the tray and the browser tab (#47)\n\n### Housekeeping\n- **actions:** every ubuntu job keeps apt's downloads in the actions cache, and a crawling mirror fails its step after ten minutes (#48)",
-  "pub_date": "2026-11-02T07:41:43Z",
+  "version": "0.1.11",
+  "notes": "\n### Now does\n- **ui:** every screen asks before its first answer, and says after five seconds that the app does not answer (#52)\n\n### Fixed\n- **desktop:** an update brings its own icon to the menu and the dock, since each start under the launcher writes the running version's (#51)\n- **ui:** screens ask the app and the desk sends its scans even while the browser says the computer is offline (#53)\n- **ui:** a view's count on VIEWS shows no number until its read has answered, instead of 0 (#54)",
+  "pub_date": "2026-11-07T07:55:57Z",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRRzUyYzhmaFdOVGZqUC8yVjVsdHNobDZjemFGeStONDd3amtwdjU1bW9JdzhqaDVhVGxBYzJISm11Wi9KY2ZVeHVSWHNkMFpVN0tsRzdsbG5iZEkyRStRZ0VOTHh6Y0FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjA1MjE5CWZpbGU6U2hpcERlc2tfMC4xLjEwX2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjEwCnFiVndkdHdkUW9jdStjQldVRENrejc3VmE5QWwxREIxMTd2ZmJVYkFIa2Q0ejdXWEJMNVpKQnA0aVV2U1RXcS9zZVcwK2VPcU1NYzRZL3NCOThURUR3PT0K",
-      "url": "https://github.com/DuckDiveLab/tembry-shipdesk-releases/releases/download/v0.1.10/ShipDesk_0.1.10_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRRzUyYzhmaFdOVFowTjA5R0I3WFFyeWNGRjRHcllSWXZiZUtrQ0dFZUxmTERVYURvUHc4TVc1R1grZnBFWGYwRXB2Q05VOURMazFIRFd4RkR5VTdqS2YydWZjTVJhdndJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDM4MDkzCWZpbGU6U2hpcERlc2tfMC4xLjExX2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjExCjlwMGd5aVRvSFd5WFp3WGNuY2tYU3JWNEE4ZWU2bFVZbUZ6RDh6YnZuY2d5MkM2MncxZ1F2OU5pMDk0UXdHRThod1p2RmhWOS9hOTZURVRtRzZ0Z0F3PT0K",
+      "url": "https://github.com/DuckDiveLab/tembry-shipdesk-releases/releases/download/v0.1.11/ShipDesk_0.1.11_amd64.AppImage"
     },
     "linux-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRRzUyYzhmaFdOVFl0RkhVMU1TUmYyVDl3Z3RBWTVSNDZtMkVmeURKMC9GcERhZEVDWDJvak94OGtzM2llZzRwcndxTEZUUkg3WWVXK3o1eUFyckdjSzc3OEw5MnA2MGdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjA1MTgzCWZpbGU6U2hpcERlc2tfMC4xLjEwX2FhcmNoNjQuQXBwSW1hZ2UJdmVyc2lvbjowLjEuMTAKMkpONWdFdmp1T25lM2krOGkydTgzRXpWeDM3V3NreDhwaDJydkUxZXpQU1I5R3Q5cFhJaStOL1l4OHQvTWg4U3o4L25YTWJaQWowamFzRXc2aVZlQmc9PQo=",
-      "url": "https://github.com/DuckDiveLab/tembry-shipdesk-releases/releases/download/v0.1.10/ShipDesk_0.1.10_aarch64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRRzUyYzhmaFdOVFMyTEVCdE02ZkpxZnV3RHhucFR4c0VZc2UzVitLYlRMZkZ3OWxxSGJaSnNtZmZ2Z0dlczBUcXZweTBIKzRrckJUZDNuSkxpUmdmV1cxRm9RL2ZHSkFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDM4MDUzCWZpbGU6U2hpcERlc2tfMC4xLjExX2FhcmNoNjQuQXBwSW1hZ2UJdmVyc2lvbjowLjEuMTEKWEFGaXdrK3BFeW9tSjd5WkdaMjFhb3BCVWx3V2c3QjlsZk5lMnhCY3pLcldhbWE2TFVLanphZXllLzRKRHhkbDVhbWVGT0pLbm1ZUFBoWmJqMld0REE9PQo=",
+      "url": "https://github.com/DuckDiveLab/tembry-shipdesk-releases/releases/download/v0.1.11/ShipDesk_0.1.11_aarch64.AppImage"
     }
   }
 }
